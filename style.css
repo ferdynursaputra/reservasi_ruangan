@@ -1,0 +1,141 @@
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Style dasar untuk body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6;
+    color: #333;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2d3748;
+}
+
+/* Tautan */
+a {
+    color: #4299e1;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style section */
+section {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Style tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table thead tr {
+    background-color: #4a5568;
+    color: #ffffff;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #f7fafc;
+}
+
+#room-list h2, #reservation-form h2 {
+    font-size: 1.5em;
+    color: #2d3748;
+    margin-bottom: 15px;
+}
+
+/* Formulir reservasi */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #4a5568;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="time"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #4299e1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3182ce;
+}
+
+/* Pesan kesalahan */
+#error-message {
+    color: #e53e3e;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+/* Style untuk daftar reservasi */
+#reservation-list h2 {
+    font-size: 1.5em;
+    color: #2d3748;
+    margin-bottom: 15px;
+}
+
+table th, table td {
+    color: #2d3748;
+}
+
+button.cancel {
+    color: #e53e3e;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+button.cancel:hover {
+    color: #c53030;
+}
